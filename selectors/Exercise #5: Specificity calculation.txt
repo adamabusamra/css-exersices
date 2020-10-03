@@ -1,0 +1,15 @@
+* { } /Specifity=0
+li { } /Specifity=1
+li:first-line { } /Specifity=2
+ul li { } /Specifity=2
+ul ol+li { } /Specifity=11
+h1 + *[rel=up] { } /Specifity=11
+ul ol li.red { } /Specifity=13
+li.red.level { } /Specifity=21
+style="" /Specifity=1000
+p { } /Specifity=1
+div p { } /Specifity=2
+.sith /Specifity=10
+div p.sith { } /Specifity=12
+#sith /Specifity=100
+body #darkside .sith p {} /Specifity=112
