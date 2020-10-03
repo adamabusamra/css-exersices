@@ -1,1 +1,19 @@
-/* this is for you to complete */
+ul:first-child{
+    color: blue;
+}
+li:first-of-type{
+    font-weight: bold;
+}
+a{
+    color: green;
+}
+ul a{
+    color: red;
+}
+body div+div a{
+    color: purple;
+    background-color: yellow;
+}
+ul>li>ul>li>ul>li{
+    list-style: none;
+}

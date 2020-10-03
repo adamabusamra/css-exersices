@@ -1,0 +1,25 @@
+body{
+    background-color: #f0f8ff;
+}
+div{
+    width: 75%;
+    min-width: 500px;
+    border: #333333 1px solid;
+    margin-bottom: 1em;
+    padding: 0.5em 0 0.5em 0;
+    background-color: white;
+}
+#alert{
+    border:red 1px dashed;
+    color:red;
+}
+.hl1{
+    font-weight: bold;
+    background-color: sandybrown;
+    padding:0 0.5em 0 0.5em;
+}
+.hl2{
+    font-weight: bold;
+    background-color: #f0f070;
+    padding:0 0.5em 0 0.5em;
+}
